@@ -1,0 +1,200 @@
+body{
+    background-image:linear-gradient(130deg,#7ec0ed,#9a89e5);
+    margin: 0;
+    padding: 0;
+    color: #808080;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    top: 60vh;
+    left: 50vw;
+    height: 100vh;
+    width: 70vw;
+    transform: translateX(-50%,-50%);
+    border: 1px,solid,#ffffff;
+     word-break: break-all;
+}
+.form2{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #4935d4;
+    width:40vw ;
+    height: 60vh;
+    color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    font-size :1.2em ;
+   word-break: break-all;
+
+}
+
+.form1{
+    
+    border-collapse: collapse;
+    display: inline-block;
+    width:40vw ;
+    height: 60vh;
+    vertical-align: top;
+    background-color: #ffffff;
+    border-radius: 10px 0px 0px 10px;
+    color: #808080;
+   word-break: break-all;
+    
+}
+#company{
+    width: 85%;
+}
+#title{
+    width: 85%;
+    color: #808080;
+
+}
+
+#fistname{
+    width: 43%; 
+    padding: 5px; 
+   /* margin-left: 10px;*/
+   
+
+}
+
+#lastname{
+    width: 32%;
+    padding: 5px;
+    margin-left:30px ;
+}
+#position{
+    margin-left: 10%;
+    margin-bottom: 3px;
+    width: 76%;
+    color: #808080;
+}
+#box3{
+    display: flex;
+    width: 100%;
+}
+#business{
+    width: 50%; 
+    padding: 0px; 
+    /*margin-left: 10%;*/    
+    margin-right: 30px;    
+}
+#empl {
+    width: 22%;
+    color: #808080;
+}
+
+
+/*deuxieme formulr*/
+p{
+    text-align: left;
+    padding: 5px;
+    margin-left: 10%;
+    
+}
+h2{
+   color: #ffffff;
+   margin-left: 10%;
+
+}
+h1{
+    color: #427ca4;
+    margin-left: 10%; 
+   
+}
+h1 ,h2{
+    text-align: left;
+    /*font-weight:bolder ;*/
+    font-size: 1.em;
+}
+
+p input[type=text],input[type=email],input[type=tel],select{
+    border: none;
+    border-bottom: 1px solid #808080;
+    background-color: transparent;
+    outline: none;
+    width:30%;
+    height: 50px;
+}
+
+p a{
+ color: #ffffff;  
+ font-weight: bolder;
+}
+.form1 ::placeholder{
+    font-size: 1.4em ;
+}
+.form2 ::placeholder{
+    color: #ffffff;
+    font-size: 1.4em ;
+}
+p input[type=submit]{
+    border: none;
+    height: 60px;
+    outline: none;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 40px;
+    width: 20%;
+}
+#box4{
+    display: flex;
+    width: 100%;   
+}
+#code{
+    width: 25%; 
+    padding: 5px; 
+    margin-left: 0%;    
+    margin-right: 30px; 
+}
+#pn{
+ width: 43%;   
+ padding: 5px; 
+
+}
+#box5{
+    display: flex;
+    width: 100%;
+}
+#zipcode{
+    width: 25%; 
+    padding: 0px; 
+    margin-left: 0%;    
+    margin-right: 30px;
+}
+#place{
+    width: 43%;
+    color: #ffffff;   
+}
+select{
+    font-size: 1.4em;
+    padding: 7px;
+}
+#strn,#mail,#add,#contry{
+    width: 85%;
+}
+input[placeholder]{
+
+    font-size: 1.0em;
+}
+#radio {
+	width: 10px;
+	appearance:none;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding:6px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+#radio:checked {
+	background-color: white;
+	border:2px solid #4935D4;
+	box-shadow: 0 0 0 0.1em white;
+	padding: 5px;
+	resize: none;}
